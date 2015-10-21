@@ -14,9 +14,17 @@ public class TennisGame
 		
 	}
 	
+	public void receiverScores() {
+		this.score = "Love-Fifteen-";
+		
+	}
+	
 	public String getScore() {
 		return score;
 	}
+
+
+	
 
 	
 
