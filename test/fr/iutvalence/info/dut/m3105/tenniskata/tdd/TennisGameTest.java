@@ -28,4 +28,12 @@ public class TennisGameTest
 		assertEquals(TennisGameTest.getScore(),"Fifteen-Love");
 		
 	}
+	
+	@Test
+	public void whenTheScroreOfThePlayerIs15_15ReturnFifteenAll(){
+		TennisGame TennisGameTest = new TennisGame();
+		TennisGameTest.eachOtherScores();
+		assertEquals(TennisGameTest.getScore(),"Fifteen-all");
+		
+	}
 }
