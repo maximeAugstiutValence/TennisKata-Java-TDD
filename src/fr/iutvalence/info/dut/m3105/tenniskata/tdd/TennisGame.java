@@ -9,6 +9,11 @@ public class TennisGame
 	}
 	
 	
+	public void serverScores() {
+		this.score = "Fifteen-Love";
+		
+	}
+	
 	public String getScore() {
 		return score;
 	}
