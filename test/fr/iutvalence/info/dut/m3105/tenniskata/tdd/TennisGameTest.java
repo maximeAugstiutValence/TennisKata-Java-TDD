@@ -8,14 +8,15 @@ public class TennisGameTest
 {
 	@Test
 	public void whenTheScoreOfTwoPlayerIsNullReturnLoveAll(){
-		TennisGame TennisGameTest = new TennisGame("Love-all");
+		TennisGame TennisGameTest = new TennisGame();
 		assertEquals(TennisGameTest.getScore(),"Love-all");
 		
 	}
 	
 	@Test
 	public void whenTheScroreOfThePlayerIs15AndTheOtherPlayerIs0ReturnFifteenLove(){
-		TennisGame TennisGameTest = new TennisGame("Fifteen-Love");
+		TennisGame TennisGameTest = new TennisGame();
+		TennisGame.serverScores();
 		assertEquals(TennisGameTest.getScore(),"Fifteen-Love");
 		
 	}

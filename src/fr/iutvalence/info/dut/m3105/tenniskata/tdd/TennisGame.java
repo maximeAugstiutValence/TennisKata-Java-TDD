@@ -4,12 +4,15 @@ public class TennisGame
 
 	public static String score;
 	
-	public TennisGame(String score){
-		this.score = score;
+	public TennisGame(){
+		this.score = "Love-all";
 	}
+	
 	
 	public String getScore() {
 		return score;
 	}
+
+	
 
 }
