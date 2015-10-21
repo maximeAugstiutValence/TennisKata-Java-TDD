@@ -16,7 +16,7 @@ public class TennisGameTest
 	@Test
 	public void whenTheScroreOfThePlayerIs15AndTheOtherPlayerIs0ReturnFifteenLove(){
 		TennisGame TennisGameTest = new TennisGame();
-		TennisGame.serverScores();
+		TennisGameTest.serverScores();
 		assertEquals(TennisGameTest.getScore(),"Fifteen-Love");
 		
 	}
